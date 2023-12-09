@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4107563197" Type="Event" GUID="{CA8E8F5F-6233-46C2-A0E3-943C3152970E}" Language="SFX" Hash="{AA8F2127-14F9-7ECE-2C7F-5AB084458842}">
+		<SoundBank Id="4107563197" Type="Event" GUID="{CA8E8F5F-6233-46C2-A0E3-943C3152970E}" Language="SFX" Hash="{4128B5B0-62C9-9A34-9D2B-37FCF00F9850}">
 			<ObjectPath>Play_sfx_veh_tyreSkid</ObjectPath>
 			<ShortName>Play_sfx_veh_tyreSkid</ShortName>
 			<Path>Event/Play_sfx_veh_tyreSkid.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3BD081D4-28DF-108F-556E-00E567AF8CBC}</FileHash>
+	<FileHash>{F15DF681-EC38-852C-9223-6361A7C157C0}</FileHash>
 </SoundBanksInfo>

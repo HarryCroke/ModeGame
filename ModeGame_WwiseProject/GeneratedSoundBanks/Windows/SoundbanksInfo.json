@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}",
     "Language": "SFX",
-    "Hash": "{36CD0633-BAC2-2E17-9247-1ACEEFE1CC15}",
+    "Hash": "{052B8DB0-5ABD-8607-7803-36F25F1DA829}",
     "ObjectPath": "Play_sfx_veh_tyreSkidStop",
     "ShortName": "Play_sfx_veh_tyreSkidStop",
     "Path": "Event/Play_sfx_veh_tyreSkidStop.bnk",
@@ -102,7 +102,7 @@
     "Type": "Event",
     "GUID": "{ED61AF83-812E-428E-B9D4-F00DE34FBF60}",
     "Language": "SFX",
-    "Hash": "{7B53C7EE-ABD1-5322-0C54-C244F21C3C0B}",
+    "Hash": "{3F074C94-D6FB-FDCD-D9AE-FAF8C791BE2A}",
     "ObjectPath": "Play_sfx_music_aiSong",
     "ShortName": "Play_sfx_music_aiSong",
     "Path": "Event/Play_sfx_music_aiSong.bnk",
@@ -425,7 +425,7 @@
     "Type": "Event",
     "GUID": "{CA8E8F5F-6233-46C2-A0E3-943C3152970E}",
     "Language": "SFX",
-    "Hash": "{AA8F2127-14F9-7ECE-2C7F-5AB084458842}",
+    "Hash": "{4128B5B0-62C9-9A34-9D2B-37FCF00F9850}",
     "ObjectPath": "Play_sfx_veh_tyreSkid",
     "ShortName": "Play_sfx_veh_tyreSkid",
     "Path": "Event/Play_sfx_veh_tyreSkid.bnk",
@@ -456,6 +456,6 @@
     ]
    }
   ],
-  "FileHash": "{F54FC426-17A8-5E2D-4956-15BF080CC71D}"
+  "FileHash": "{5EBA4E7F-3C17-ECBF-D6A8-A85B87C59EB4}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{ED61AF83-812E-428E-B9D4-F00DE34FBF60}",
     "Language": "SFX",
-    "Hash": "{7B53C7EE-ABD1-5322-0C54-C244F21C3C0B}",
+    "Hash": "{3F074C94-D6FB-FDCD-D9AE-FAF8C791BE2A}",
     "ObjectPath": "Play_sfx_music_aiSong",
     "ShortName": "Play_sfx_music_aiSong",
     "Path": "Event/Play_sfx_music_aiSong.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{5A3E1BEC-0F04-5078-DD9B-8305970B786B}"
+  "FileHash": "{8F8F7345-2472-7954-3368-78FA610397CE}"
  }
 }
