@@ -72,3 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# -- Start Wwise --
+
+# Unneeded generated soundbanks files
+SoundbanksInfo.xml
+PluginInfo.xml
+
+# -- End Wwise --
