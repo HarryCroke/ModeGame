@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sfx_testSound" ID="{22E69A65-D608-4571-B50A-B9FD3AC22EF6}" ShortID="908805444">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_ship_loc_engine_release" ID="{B84D31B9-E47B-44F2-98F8-2BB27B35DF4A}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_ship_loc_engine_release.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="91363057"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_ship_loc_engine_release" ID="{B84D31B9-E47B-44F2-98F8-2BB27B35DF4A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="ble_veh_engine" ID="{FF61ACAF-2A9F-4F76-9C98-B28CDCF3B1AA}" ShortID="118408615">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" WorkUnitID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_veh_engineIdle" ID="{33672A45-FE91-4CF5-8DDB-6AD3F3087280}" ShortID="1003284389">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-004" ID="{B5EBF941-8FE1-46A3-9F0E-FC72BBC8DD8C}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479650576"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-004" ID="{B5EBF941-8FE1-46A3-9F0E-FC72BBC8DD8C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad1" ID="{40D3F52F-A2AF-41F0-9731-DDB02197042C}" ShortID="1058189592">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-005" ID="{F2AFB23D-4528-44A5-BA4C-9A524331D254}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="702416357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-005" ID="{F2AFB23D-4528-44A5-BA4C-9A524331D254}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad2" ID="{89603304-50CE-4AA5-AED9-50FA42BB5F7E}" ShortID="712411293">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-006" ID="{F4CB393A-A623-43FF-B4A9-9652BC54BBD1}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1018759854"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-006" ID="{F4CB393A-A623-43FF-B4A9-9652BC54BBD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad3" ID="{8F1DA954-BBA6-4BC3-895F-AE318D93C658}" ShortID="547861550">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-007" ID="{53B0B0A1-0EE8-4AEC-B243-3C06E5BC53E0}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1054354597"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-007" ID="{53B0B0A1-0EE8-4AEC-B243-3C06E5BC53E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad4" ID="{120C3C96-E515-4562-BEC7-C138316D0FAC}" ShortID="28192714">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-008" ID="{F5A20BA4-FB50-4DFF-9A95-E11FFA126913}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="987554480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-008" ID="{F5A20BA4-FB50-4DFF-9A95-E11FFA126913}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad5" ID="{7B1ABADE-3649-44C8-91BA-2C50704A76EE}" ShortID="348918765">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-009" ID="{C7CCB282-3C17-494F-896C-F4426D4AF485}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-009.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="564530649"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-009" ID="{C7CCB282-3C17-494F-896C-F4426D4AF485}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoad6" ID="{02219285-92A3-45F4-9B1E-DF73F4B97CD8}" ShortID="726213163">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-010" ID="{7E1AF283-A11E-4FE8-8BA9-1A0F612A8447}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-010.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="635943205"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-010" ID="{7E1AF283-A11E-4FE8-8BA9-1A0F612A8447}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_veh_engineOnLoadBase" ID="{D384AAEA-153D-4BEA-B2FB-E1C5B2F5644F}" ShortID="737789213">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ModeJam_vehicle-011" ID="{AA308194-4090-4D62-823D-9167B476C22B}">
+									<Language>SFX</Language>
+									<AudioFile>ModeJam_vehicle-011.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="728923754"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ModeJam_vehicle-011" ID="{AA308194-4090-4D62-823D-9167B476C22B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="OnLoad" ID="{1F020F78-C7AE-477F-A8BD-1B1143B2F5E4}" ShortID="938376981">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C672379D-2C78-4EE6-A77D-2CEE33FD6C39}" ShortID="120663980">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{20484996-2230-41DD-AB1A-8305342CBD00}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6054.409004</XPos>
+																		<YPos>350</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>500</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{F37FC59D-9459-4E9B-B93F-EC41EFCC1F77}" ShortID="876679053">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{56C35998-F6B3-4FFC-AE01-59738E6B4BC2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineIdle" ID="{33672A45-FE91-4CF5-8DDB-6AD3F3087280}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>349.613246302355</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad1" ID="{40D3F52F-A2AF-41F0-9731-DDB02197042C}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>49.7964642460789</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>1371.93245778612</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad2" ID="{89603304-50CE-4AA5-AED9-50FA42BB5F7E}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>634.333958724203</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>2679.23418045369</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad3" ID="{8F1DA954-BBA6-4BC3-895F-AE318D93C658}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1744.2094490875</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>3868.66791744841</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad4" ID="{120C3C96-E515-4562-BEC7-C138316D0FAC}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>2970.83404400478</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>5082.38103360054</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad5" ID="{7B1ABADE-3649-44C8-91BA-2C50704A76EE}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>4183.35323213372</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>6405.93552788675</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoad6" ID="{02219285-92A3-45F4-9B1E-DF73F4B97CD8}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>5404.22991642504</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>7000</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Base" ID="{A4C44A96-C221-4281-B67C-F4F97F011368}" ShortID="746980998">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{A4B17ED9-ACC0-4B98-987B-4382098DB888}" ShortID="799621332">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{4B1DADED-E39F-48C5-AB3F-E8D68C67E71B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-607</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>608</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{F01BD5F1-F4A2-4D33-8E8E-68EEB7B3BB6E}" ShortID="941253809">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}" WorkUnitID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F00BF8BE-99B0-44AC-A1AD-A97DAF71D0D6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-181.35881</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>743.33959</XPos>
+																		<YPos>-9.00937</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2731.707314</XPos>
+																		<YPos>-4.15181</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>-1.50592</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="sfx_veh_engineOnLoadBase" ID="{D384AAEA-153D-4BEA-B2FB-E1C5B2F5644F}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>7000</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<Sound Name="sfx_veh_tyreSparks" ID="{945207BA-D812-4973-8EDA-BE8A8A30DFEE}" ShortID="220457485">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" WorkUnitID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModeJam_vehicle-003" ID="{B2FAAA24-4A02-44E3-87B8-533149FC4400}">
+							<Language>SFX</Language>
+							<AudioFile>ModeJam_vehicle-003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="215359908"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModeJam_vehicle-003" ID="{B2FAAA24-4A02-44E3-87B8-533149FC4400}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_veh_engineStart" ID="{C76708C8-8896-42C4-B4B8-54EA31ACAF6E}" ShortID="201569560">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModeJam_vehicle-001" ID="{D2E83B72-C039-4BC6-B973-76DAB145ABBF}">
+							<Language>SFX</Language>
+							<AudioFile>ModeJam_vehicle-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="807102747"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModeJam_vehicle-001" ID="{D2E83B72-C039-4BC6-B973-76DAB145ABBF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_veh_tyreSkid" ID="{A737E77D-AA3C-4075-822C-8BECFB95041F}" ShortID="11287205">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModeJam_vehicle-002" ID="{01DF3B7B-D22F-460A-8024-974212EAB474}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ModeJam_vehicle-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="421928632"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModeJam_vehicle-002" ID="{01DF3B7B-D22F-460A-8024-974212EAB474}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_veh_engineBoost" ID="{4D1E69DE-1FB0-46D9-85A1-3299EA27F841}" ShortID="1031324182">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" WorkUnitID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_veh_engineBoost" ID="{24BA60DE-4972-4B3D-9628-E84C8AF5BC25}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_veh_engineBoost.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="177487666"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_veh_engineBoost" ID="{24BA60DE-4972-4B3D-9628-E84C8AF5BC25}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_veh_engineDump" ID="{8B5A2A22-E542-4073-8B1D-6159C8155340}" ShortID="787431944">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" WorkUnitID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_veh_engineDump" ID="{62DA6527-BF98-4A63-A681-2FDA550D7FBE}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_veh_engineDump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="316382457"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_veh_engineDump" ID="{62DA6527-BF98-4A63-A681-2FDA550D7FBE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_veh_tyreSkidStop" ID="{C0E35E75-D5B2-4561-80BC-18BE05C3C72F}" ShortID="831090026">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" WorkUnitID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_veh_tyreSkidStop" ID="{C39EF351-24ED-4D91-A8D9-484CCB9BF4F6}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_veh_tyreSkidStop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="458496508"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_veh_tyreSkidStop" ID="{C39EF351-24ED-4D91-A8D9-484CCB9BF4F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

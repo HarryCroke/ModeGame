@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "709680645",
+    "Type": "Event",
+    "GUID": "{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}",
+    "Language": "SFX",
+    "Hash": "{36CD0633-BAC2-2E17-9247-1ACEEFE1CC15}",
+    "ObjectPath": "Play_sfx_veh_tyreSkidStop",
+    "ShortName": "Play_sfx_veh_tyreSkidStop",
+    "Path": "Event/Play_sfx_veh_tyreSkidStop.bnk",
+    "Media": [
+     {
+      "Id": "458496508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_veh_tyreSkidStop.wav",
+      "Path": "Media/458496508.wem",
+      "CachePath": "SFX/sfx_veh_tyreSkidStop_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "709680645",
+      "Name": "Play_sfx_veh_tyreSkidStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSkidStop",
+      "GUID": "{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "458496508"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{45E3FAD9-8151-888A-BCC8-542B48AF86AC}"
+ }
+}

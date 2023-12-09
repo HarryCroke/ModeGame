@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2594975274",
+    "Type": "Event",
+    "GUID": "{DDE638F3-E13E-4BF6-862E-67F1CE658625}",
+    "Language": "SFX",
+    "Hash": "{FA0A0A3A-BF98-6E80-4A3B-C1DAF1C7D80F}",
+    "ObjectPath": "Play_sfx_veh_tyreSparks",
+    "ShortName": "Play_sfx_veh_tyreSparks",
+    "Path": "Event/Play_sfx_veh_tyreSparks.bnk",
+    "Media": [
+     {
+      "Id": "215359908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-003.wav",
+      "Path": "Media/215359908.wem",
+      "CachePath": "SFX/ModeJam_vehicle-003_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2594975274",
+      "Name": "Play_sfx_veh_tyreSparks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSparks",
+      "GUID": "{DDE638F3-E13E-4BF6-862E-67F1CE658625}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "215359908"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1153FE1F-849A-6E88-56B2-1785452CFE99}"
+ }
+}

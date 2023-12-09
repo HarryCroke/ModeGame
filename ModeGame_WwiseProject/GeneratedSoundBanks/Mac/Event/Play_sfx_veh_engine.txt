@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3799029592	Play_sfx_veh_engine			\Default Work Unit\Play_sfx_veh_engine	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2297668108	RTPC_EngineRPM			\Default Work Unit\RTPC_EngineRPM	
+

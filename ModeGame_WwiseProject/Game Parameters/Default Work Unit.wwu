@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{5DC71650-8C84-4E2B-BB9A-02BBA2A12D6C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_EngineRPM" ID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="7000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

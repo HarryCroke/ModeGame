@@ -1,0 +1,426 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Mac",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "709680645",
+    "Type": "Event",
+    "GUID": "{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}",
+    "Language": "SFX",
+    "Hash": "{36CD0633-BAC2-2E17-9247-1ACEEFE1CC15}",
+    "ObjectPath": "Play_sfx_veh_tyreSkidStop",
+    "ShortName": "Play_sfx_veh_tyreSkidStop",
+    "Path": "Event/Play_sfx_veh_tyreSkidStop.bnk",
+    "Media": [
+     {
+      "Id": "458496508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_veh_tyreSkidStop.wav",
+      "Path": "Media/458496508.wem",
+      "CachePath": "SFX/sfx_veh_tyreSkidStop_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "709680645",
+      "Name": "Play_sfx_veh_tyreSkidStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSkidStop",
+      "GUID": "{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "458496508"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{7C872B7E-9E16-AA6C-D28D-55275C05A357}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{9F690E1B-6E4A-448B-9A95-DA6D729F8E59}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{673BB003-6DAF-4FAC-860A-08FF846EF03E}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2297668108",
+      "Name": "RTPC_EngineRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_EngineRPM",
+      "GUID": "{0053BAD0-E9C3-4020-9C07-DD285DE5D815}"
+     }
+    ]
+   },
+   {
+    "Id": "1810709249",
+    "Type": "Event",
+    "GUID": "{11944054-D83A-4FED-B317-3B872547B5F7}",
+    "Language": "SFX",
+    "Hash": "{CEEC35CC-71BE-00DC-0AEE-B5CF9952530A}",
+    "ObjectPath": "Play_sfx_veh_engineBoost",
+    "ShortName": "Play_sfx_veh_engineBoost",
+    "Path": "Event/Play_sfx_veh_engineBoost.bnk",
+    "Media": [
+     {
+      "Id": "177487666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_veh_engineBoost.wav",
+      "Path": "Media/177487666.wem",
+      "CachePath": "SFX/sfx_veh_engineBoost_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1810709249",
+      "Name": "Play_sfx_veh_engineBoost",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_engineBoost",
+      "GUID": "{11944054-D83A-4FED-B317-3B872547B5F7}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "177487666"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2594975274",
+    "Type": "Event",
+    "GUID": "{DDE638F3-E13E-4BF6-862E-67F1CE658625}",
+    "Language": "SFX",
+    "Hash": "{FA0A0A3A-BF98-6E80-4A3B-C1DAF1C7D80F}",
+    "ObjectPath": "Play_sfx_veh_tyreSparks",
+    "ShortName": "Play_sfx_veh_tyreSparks",
+    "Path": "Event/Play_sfx_veh_tyreSparks.bnk",
+    "Media": [
+     {
+      "Id": "215359908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-003.wav",
+      "Path": "Media/215359908.wem",
+      "CachePath": "SFX/ModeJam_vehicle-003_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2594975274",
+      "Name": "Play_sfx_veh_tyreSparks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSparks",
+      "GUID": "{DDE638F3-E13E-4BF6-862E-67F1CE658625}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "215359908"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2919520122",
+    "Type": "Event",
+    "GUID": "{0BA2B8D7-4923-4BF0-9446-86E1DDFC77B8}",
+    "Language": "SFX",
+    "Hash": "{2F3FB2EE-8860-3E21-1D2C-96D22F868AAD}",
+    "ObjectPath": "Play_sfx_veh_engineDump",
+    "ShortName": "Play_sfx_veh_engineDump",
+    "Path": "Event/Play_sfx_veh_engineDump.bnk",
+    "Media": [
+     {
+      "Id": "316382457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_veh_engineDump.wav",
+      "Path": "Media/316382457.wem",
+      "CachePath": "SFX/sfx_veh_engineDump_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2919520122",
+      "Name": "Play_sfx_veh_engineDump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_engineDump",
+      "GUID": "{0BA2B8D7-4923-4BF0-9446-86E1DDFC77B8}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "316382457"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3056398787",
+    "Type": "Event",
+    "GUID": "{D3C0DA3E-F73C-4A13-8C80-DF993FA0C09D}",
+    "Language": "SFX",
+    "Hash": "{A00C8CE8-7CB4-BB5C-152F-634C455FC4B2}",
+    "ObjectPath": "Play_sfx_testSound",
+    "ShortName": "Play_sfx_testSound",
+    "Path": "Event/Play_sfx_testSound.bnk",
+    "Media": [
+     {
+      "Id": "91363057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_ship_loc_engine_release.wav",
+      "Path": "Media/91363057.wem",
+      "CachePath": "SFX/sfx_ship_loc_engine_release_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3056398787",
+      "Name": "Play_sfx_testSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_testSound",
+      "GUID": "{D3C0DA3E-F73C-4A13-8C80-DF993FA0C09D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "91363057"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3799029592",
+    "Type": "Event",
+    "GUID": "{06A39172-04DE-42F3-9EE5-3BCED1AA4FF0}",
+    "Language": "SFX",
+    "Hash": "{395CA1D0-3086-872E-9421-D4362B96267A}",
+    "ObjectPath": "Play_sfx_veh_engine",
+    "ShortName": "Play_sfx_veh_engine",
+    "Path": "Event/Play_sfx_veh_engine.bnk",
+    "Media": [
+     {
+      "Id": "479650576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-004.wav",
+      "Path": "Media/479650576.wem",
+      "CachePath": "SFX/ModeJam_vehicle-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "564530649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-009.wav",
+      "Path": "Media/564530649.wem",
+      "CachePath": "SFX/ModeJam_vehicle-009_D79FB2B7.wem"
+     },
+     {
+      "Id": "635943205",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-010.wav",
+      "Path": "Media/635943205.wem",
+      "CachePath": "SFX/ModeJam_vehicle-010_D79FB2B7.wem"
+     },
+     {
+      "Id": "702416357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-005.wav",
+      "Path": "Media/702416357.wem",
+      "CachePath": "SFX/ModeJam_vehicle-005_D79FB2B7.wem"
+     },
+     {
+      "Id": "728923754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-011.wav",
+      "Path": "Media/728923754.wem",
+      "CachePath": "SFX/ModeJam_vehicle-011_D79FB2B7.wem"
+     },
+     {
+      "Id": "807102747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-001.wav",
+      "Path": "Media/807102747.wem",
+      "CachePath": "SFX/ModeJam_vehicle-001_10C4C929.wem"
+     },
+     {
+      "Id": "987554480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-008.wav",
+      "Path": "Media/987554480.wem",
+      "CachePath": "SFX/ModeJam_vehicle-008_D79FB2B7.wem"
+     },
+     {
+      "Id": "1018759854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-006.wav",
+      "Path": "Media/1018759854.wem",
+      "CachePath": "SFX/ModeJam_vehicle-006_D79FB2B7.wem"
+     },
+     {
+      "Id": "1054354597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-007.wav",
+      "Path": "Media/1054354597.wem",
+      "CachePath": "SFX/ModeJam_vehicle-007_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3799029592",
+      "Name": "Play_sfx_veh_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_engine",
+      "GUID": "{06A39172-04DE-42F3-9EE5-3BCED1AA4FF0}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "479650576"
+       },
+       {
+        "Id": "564530649"
+       },
+       {
+        "Id": "635943205"
+       },
+       {
+        "Id": "702416357"
+       },
+       {
+        "Id": "728923754"
+       },
+       {
+        "Id": "807102747"
+       },
+       {
+        "Id": "987554480"
+       },
+       {
+        "Id": "1018759854"
+       },
+       {
+        "Id": "1054354597"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2297668108",
+      "Name": "RTPC_EngineRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_EngineRPM",
+      "GUID": "{0053BAD0-E9C3-4020-9C07-DD285DE5D815}"
+     }
+    ]
+   },
+   {
+    "Id": "4107563197",
+    "Type": "Event",
+    "GUID": "{CA8E8F5F-6233-46C2-A0E3-943C3152970E}",
+    "Language": "SFX",
+    "Hash": "{AA8F2127-14F9-7ECE-2C7F-5AB084458842}",
+    "ObjectPath": "Play_sfx_veh_tyreSkid",
+    "ShortName": "Play_sfx_veh_tyreSkid",
+    "Path": "Event/Play_sfx_veh_tyreSkid.bnk",
+    "Media": [
+     {
+      "Id": "421928632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-002.wav",
+      "Path": "Media/421928632.wem",
+      "CachePath": "SFX/ModeJam_vehicle-002_C5579977.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4107563197",
+      "Name": "Play_sfx_veh_tyreSkid",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSkid",
+      "GUID": "{CA8E8F5F-6233-46C2-A0E3-943C3152970E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "421928632"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0C3B1172-C229-8EF9-CB2B-F24DD5A2A652}"
+ }
+}

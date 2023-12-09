@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1810709249",
+    "Type": "Event",
+    "GUID": "{11944054-D83A-4FED-B317-3B872547B5F7}",
+    "Language": "SFX",
+    "Hash": "{CEEC35CC-71BE-00DC-0AEE-B5CF9952530A}",
+    "ObjectPath": "Play_sfx_veh_engineBoost",
+    "ShortName": "Play_sfx_veh_engineBoost",
+    "Path": "Event/Play_sfx_veh_engineBoost.bnk",
+    "Media": [
+     {
+      "Id": "177487666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_veh_engineBoost.wav",
+      "Path": "Media/177487666.wem",
+      "CachePath": "SFX/sfx_veh_engineBoost_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1810709249",
+      "Name": "Play_sfx_veh_engineBoost",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_engineBoost",
+      "GUID": "{11944054-D83A-4FED-B317-3B872547B5F7}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "177487666"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9B1E2B85-0FC6-8C98-4442-DD784A009528}"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "4107563197",
+    "Type": "Event",
+    "GUID": "{CA8E8F5F-6233-46C2-A0E3-943C3152970E}",
+    "Language": "SFX",
+    "Hash": "{AA8F2127-14F9-7ECE-2C7F-5AB084458842}",
+    "ObjectPath": "Play_sfx_veh_tyreSkid",
+    "ShortName": "Play_sfx_veh_tyreSkid",
+    "Path": "Event/Play_sfx_veh_tyreSkid.bnk",
+    "Media": [
+     {
+      "Id": "421928632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModeJam_vehicle-002.wav",
+      "Path": "Media/421928632.wem",
+      "CachePath": "SFX/ModeJam_vehicle-002_C5579977.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4107563197",
+      "Name": "Play_sfx_veh_tyreSkid",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_veh_tyreSkid",
+      "GUID": "{CA8E8F5F-6233-46C2-A0E3-943C3152970E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "421928632"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6AF607CA-4F70-3C57-BAAF-C2FE2B9C9057}"
+ }
+}

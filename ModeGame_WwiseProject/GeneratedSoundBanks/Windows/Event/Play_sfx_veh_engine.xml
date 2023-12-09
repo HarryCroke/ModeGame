@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3799029592" Type="Event" GUID="{06A39172-04DE-42F3-9EE5-3BCED1AA4FF0}" Language="SFX" Hash="{395CA1D0-3086-872E-9421-D4362B96267A}">
+			<ObjectPath>Play_sfx_veh_engine</ObjectPath>
+			<ShortName>Play_sfx_veh_engine</ShortName>
+			<Path>Event/Play_sfx_veh_engine.bnk</Path>
+			<Media>
+				<File Id="479650576" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-004.wav</ShortName>
+					<Path>Media/479650576.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="564530649" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-009.wav</ShortName>
+					<Path>Media/564530649.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-009_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="635943205" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-010.wav</ShortName>
+					<Path>Media/635943205.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-010_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="702416357" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-005.wav</ShortName>
+					<Path>Media/702416357.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="728923754" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-011.wav</ShortName>
+					<Path>Media/728923754.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-011_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="807102747" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-001.wav</ShortName>
+					<Path>Media/807102747.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987554480" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-008.wav</ShortName>
+					<Path>Media/987554480.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-008_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1018759854" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-006.wav</ShortName>
+					<Path>Media/1018759854.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-006_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1054354597" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ModeJam_vehicle-007.wav</ShortName>
+					<Path>Media/1054354597.wem</Path>
+					<CachePath>SFX/ModeJam_vehicle-007_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3799029592" Name="Play_sfx_veh_engine" ObjectPath="\Events\Default Work Unit\Play_sfx_veh_engine" GUID="{06A39172-04DE-42F3-9EE5-3BCED1AA4FF0}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="479650576"/>
+						<MediaRef Id="564530649"/>
+						<MediaRef Id="635943205"/>
+						<MediaRef Id="702416357"/>
+						<MediaRef Id="728923754"/>
+						<MediaRef Id="807102747"/>
+						<MediaRef Id="987554480"/>
+						<MediaRef Id="1018759854"/>
+						<MediaRef Id="1054354597"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2297668108" Name="RTPC_EngineRPM" ObjectPath="\Game Parameters\Default Work Unit\RTPC_EngineRPM" GUID="{0053BAD0-E9C3-4020-9C07-DD285DE5D815}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{03879F99-751B-BEF7-E264-08DAC0A5FC81}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2919520122" Type="Event" GUID="{0BA2B8D7-4923-4BF0-9446-86E1DDFC77B8}" Language="SFX" Hash="{2F3FB2EE-8860-3E21-1D2C-96D22F868AAD}">
+			<ObjectPath>Play_sfx_veh_engineDump</ObjectPath>
+			<ShortName>Play_sfx_veh_engineDump</ShortName>
+			<Path>Event/Play_sfx_veh_engineDump.bnk</Path>
+			<Media>
+				<File Id="316382457" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>sfx_veh_engineDump.wav</ShortName>
+					<Path>Media/316382457.wem</Path>
+					<CachePath>SFX/sfx_veh_engineDump_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2919520122" Name="Play_sfx_veh_engineDump" ObjectPath="\Events\Default Work Unit\Play_sfx_veh_engineDump" GUID="{0BA2B8D7-4923-4BF0-9446-86E1DDFC77B8}" MaxAttenuation="10000" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="316382457"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FDCFE7B2-1423-E684-C58F-C7A5C80C580A}</FileHash>
+</SoundBanksInfo>

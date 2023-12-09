@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3056398787",
+    "Type": "Event",
+    "GUID": "{D3C0DA3E-F73C-4A13-8C80-DF993FA0C09D}",
+    "Language": "SFX",
+    "Hash": "{A00C8CE8-7CB4-BB5C-152F-634C455FC4B2}",
+    "ObjectPath": "Play_sfx_testSound",
+    "ShortName": "Play_sfx_testSound",
+    "Path": "Event/Play_sfx_testSound.bnk",
+    "Media": [
+     {
+      "Id": "91363057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sfx_ship_loc_engine_release.wav",
+      "Path": "Media/91363057.wem",
+      "CachePath": "SFX/sfx_ship_loc_engine_release_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3056398787",
+      "Name": "Play_sfx_testSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_testSound",
+      "GUID": "{D3C0DA3E-F73C-4A13-8C80-DF993FA0C09D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "91363057"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B98B7B03-2733-7B4F-4BCF-4247FB3A3522}"
+ }
+}

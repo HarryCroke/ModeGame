@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="709680645" Type="Event" GUID="{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}" Language="SFX" Hash="{36CD0633-BAC2-2E17-9247-1ACEEFE1CC15}">
+			<ObjectPath>Play_sfx_veh_tyreSkidStop</ObjectPath>
+			<ShortName>Play_sfx_veh_tyreSkidStop</ShortName>
+			<Path>Event/Play_sfx_veh_tyreSkidStop.bnk</Path>
+			<Media>
+				<File Id="458496508" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>sfx_veh_tyreSkidStop.wav</ShortName>
+					<Path>Media/458496508.wem</Path>
+					<CachePath>SFX/sfx_veh_tyreSkidStop_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="709680645" Name="Play_sfx_veh_tyreSkidStop" ObjectPath="\Events\Default Work Unit\Play_sfx_veh_tyreSkidStop" GUID="{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}" MaxAttenuation="10000" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="458496508"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1E9AF623-059D-8206-3172-85D13A6B5F42}</FileHash>
+</SoundBanksInfo>

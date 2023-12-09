@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F54D5F59-B4E6-4204-AEC6-781363F5B050}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F54D5F59-B4E6-4204-AEC6-781363F5B050}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_sfx_testSound" ID="{D3C0DA3E-F73C-4A13-8C80-DF993FA0C09D}">
+					<ChildrenList>
+						<Action Name="" ID="{718674D4-50F4-4A5B-8715-0FEE55134672}" ShortID="119679827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_testSound" ID="{22E69A65-D608-4571-B50A-B9FD3AC22EF6}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_engine" ID="{06A39172-04DE-42F3-9EE5-3BCED1AA4FF0}">
+					<ChildrenList>
+						<Action Name="" ID="{16F5311A-C60E-4311-8737-27BC07241171}" ShortID="474817697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_engineStart" ID="{C76708C8-8896-42C4-B4B8-54EA31ACAF6E}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD33E510-719E-4EE4-A146-6378E3413885}" ShortID="319443611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ble_veh_engine" ID="{FF61ACAF-2A9F-4F76-9C98-B28CDCF3B1AA}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_tyreSkid" ID="{CA8E8F5F-6233-46C2-A0E3-943C3152970E}">
+					<ChildrenList>
+						<Action Name="" ID="{336B149F-FB63-407F-AED9-B010D3271D76}" ShortID="207913392">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_tyreSkid" ID="{A737E77D-AA3C-4075-822C-8BECFB95041F}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_engineDump" ID="{0BA2B8D7-4923-4BF0-9446-86E1DDFC77B8}">
+					<ChildrenList>
+						<Action Name="" ID="{A06B6606-2AFF-4A06-9BF0-92FC54B5F250}" ShortID="708405888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_engineDump" ID="{8B5A2A22-E542-4073-8B1D-6159C8155340}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_engineBoost" ID="{11944054-D83A-4FED-B317-3B872547B5F7}">
+					<ChildrenList>
+						<Action Name="" ID="{B9868F93-C0EB-4ED6-A657-5CCE3BA54F9A}" ShortID="314634111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_engineBoost" ID="{4D1E69DE-1FB0-46D9-85A1-3299EA27F841}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_tyreSparks" ID="{DDE638F3-E13E-4BF6-862E-67F1CE658625}">
+					<ChildrenList>
+						<Action Name="" ID="{2A1184C3-430A-487A-B6F8-EC15A3EA0717}" ShortID="68765456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_tyreSparks" ID="{945207BA-D812-4973-8EDA-BE8A8A30DFEE}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_veh_tyreSkidStop" ID="{5CA0EEB9-3DFC-4EF2-9569-D8365B6F5D52}">
+					<ChildrenList>
+						<Action Name="" ID="{AFEC6204-8AE7-4FE0-A0F5-A200DEA0C44E}" ShortID="283731152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_veh_tyreSkidStop" ID="{C0E35E75-D5B2-4561-80BC-18BE05C3C72F}" WorkUnitID="{182DBCC2-ADD1-4625-BC7C-AAF5EAADF98B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
