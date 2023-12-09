@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1388772123	Play_sfx_music_aiSong			\Default Work Unit\Play_sfx_music_aiSong	
+

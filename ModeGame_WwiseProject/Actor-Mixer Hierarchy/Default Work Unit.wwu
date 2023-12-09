@@ -603,7 +603,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -705,7 +705,7 @@
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -731,6 +731,36 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="sfx_veh_tyreSkidStop" ID="{C39EF351-24ED-4D91-A8D9-484CCB9BF4F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_music_aiSong" ID="{2C1BBB89-3CE4-4A58-B170-B555E15A19EF}" ShortID="846188252">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC48E719-3187-46D3-BDBF-799576B2420E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDF7A8E8-9684-48B6-A8AF-0A1F0B072FFA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="tune" ID="{EDFC27E1-E933-4637-9D0C-85A04125E5AA}">
+							<Language>SFX</Language>
+							<AudioFile>tune.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="580562172"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="tune" ID="{EDFC27E1-E933-4637-9D0C-85A04125E5AA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

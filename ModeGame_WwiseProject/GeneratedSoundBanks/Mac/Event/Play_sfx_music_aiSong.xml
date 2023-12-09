@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1388772123" Type="Event" GUID="{ED61AF83-812E-428E-B9D4-F00DE34FBF60}" Language="SFX" Hash="{7B53C7EE-ABD1-5322-0C54-C244F21C3C0B}">
+			<ObjectPath>Play_sfx_music_aiSong</ObjectPath>
+			<ShortName>Play_sfx_music_aiSong</ShortName>
+			<Path>Event/Play_sfx_music_aiSong.bnk</Path>
+			<Media>
+				<File Id="580562172" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>tune.wav</ShortName>
+					<Path>Media/580562172.wem</Path>
+					<CachePath>SFX/tune_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1388772123" Name="Play_sfx_music_aiSong" ObjectPath="\Events\Default Work Unit\Play_sfx_music_aiSong" GUID="{ED61AF83-812E-428E-B9D4-F00DE34FBF60}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="580562172"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FF67217D-0B84-C02D-23EA-009694BE7B6C}</FileHash>
+</SoundBanksInfo>
